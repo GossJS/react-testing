@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<main>
+  <AppBar
+    iconElementLeft={<div />}
+    showMenuIconButton={true}
+    title="Put text on random pic"
+    zDepth={1}
+  />
+  <Paper
+    circle={false}
+    rounded={true}
+    style={
+      Object {
+        "margin": "30px auto 0",
+        "padding": "25px",
+        "width": "1250px",
+      }
+    }
+    transitionEnabled={true}
+    zDepth={4}
+  >
+    <div
+      style={
+        Object {
+          "color": "floralwhite",
+          "fontSize": "70px",
+          "fontWeight": "bold",
+          "height": "400px",
+          "position": "relative",
+          "textAlign": "center",
+          "width": "1200px",
+        }
+      }
+    >
+      <img
+        alt=""
+        src=""
+      />
+    </div>
+    <div
+      style={
+        Object {
+          "padding": "20px 0 0 0",
+          "textAlign": "center",
+        }
+      }
+    >
+      <TextField
+        disabled={false}
+        floatingLabelFixed={false}
+        fullWidth={false}
+        hintText="your text"
+        multiLine={false}
+        onChange={[Function]}
+        rows={1}
+        style={
+          Object {
+            "marginRight": "15px",
+          }
+        }
+        type="text"
+        underlineShow={true}
+      />
+      <RaisedButton
+        disabled={false}
+        fullWidth={false}
+        label="load new pic"
+        labelPosition="after"
+        onClick={[Function]}
+        primary={false}
+        secondary={false}
+      />
+    </div>
+  </Paper>
+</main>
+`;
